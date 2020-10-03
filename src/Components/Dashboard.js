@@ -1,7 +1,7 @@
 import React from 'react';
 import Counter from "./Counter";
 import {Grid} from "semantic-ui-react";
-import PriceTable from "./PriceTable";
+import Prices from "./Prices";
 
 export default class Dashboard extends React.Component {
 
@@ -15,7 +15,7 @@ export default class Dashboard extends React.Component {
                     <Counter />
                 </Grid.Row>
                 <Grid.Row>
-                    <PriceTable />
+                    <Prices />
                 </Grid.Row>
             </Grid>
         );
